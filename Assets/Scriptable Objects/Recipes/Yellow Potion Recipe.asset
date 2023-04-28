@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc342133f566304198e813376e59381, type: 3}
+  m_Name: Yellow Potion Recipe
+  m_EditorClassIdentifier: 
+  recipeName: Yellow Potion recipe
+  ingredients:
+  - Item: {fileID: 11400000, guid: a19b607bc4cd42d44889f9019e4383c4, type: 2}
+    quantity: 1
+  - Item: {fileID: 11400000, guid: 7187c81c3723a844db21eb8a5828adad, type: 2}
+    quantity: 1
+  description: Gives a 10 second shield that protects the player from any attack
+  result: {fileID: 11400000, guid: 4d1ef8cdfd579a644a02928bb2e94a8e, type: 2}
